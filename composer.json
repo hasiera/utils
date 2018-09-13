@@ -1,24 +1,23 @@
 {
-    "name": "buonzz/composer-library-template",
-    "description": "Boilerplate package for creating other packages.",
-    "keywords": ["template", "composer", "package"],
-    "license": "DBAD",
+    "name": "hasiera/utils",
+    "description": "Common utilities of Hasiera. Hasiera is a Family Resources Manager.",
+    "keywords": ["management", "family", "php", "school", "core"],
+    "license": "MIT",
     "authors": [
         {
-            "name": "Darwin Biler",
-            "email": "buonzz@gmail.com"
+            "name": "Alexandre Waeles"
         }
     ],
-    "type": "project",
+    "type": "library",
     "require": {
-		"php": ">=7.1"
+		"php": "^7.1"
     },
     "require-dev": {
 		"phpunit/phpunit": "6.*"
     },
     "autoload": {
         "psr-4": {
-            "Buonzz\\Template\\": "src/"
+            "Hasiera\\Component\\Utils\\": "src/"
         }
     }
 }
