@@ -1,5 +1,5 @@
-Hasiera Core
-============
+Hasiera Utils
+=============
 
 About Hasiera
 -------------
@@ -24,20 +24,17 @@ The main features are:
   - And lots more...
 - A powerful user management system allowing use either in small families or in collectivities like schools.
 
-The Core
---------
+The Utils
+---------
 
 ### #1. Goals:
 
-The goals of the core component is to provide the infrastructure to create the other components such as
-interaction between them, request dispatching, automatic loading of components, and alike features.
+`TODO`
 
 ### #2. Roadmap:
 
 #### Version 0.1.0
 
-- Component loading, this is a major point: to allow loading of any Hasiera component, a composer
-plugin will be made and will register components.
-- Request dispatching, this will allow to just call `Hasiera::init()` static method and start everything.
+- Will be released when Core will be.
 
 `TO BE CONTINUED`
