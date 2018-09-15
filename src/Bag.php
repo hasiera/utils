@@ -21,5 +21,20 @@ class Bag
 			throw new BagException("Name is unknown.");
 			return $this->bag[$name];
 	}
+	
+	public function keys()
+	{
+		return array_keys($this->bag);
+	}
+	
+	public function toArray()
+	{
+		return $this->bag;
+	}
+	
+	public function getIterator()
+	{
+		return new BagIterator($this);
+	}
 }
 
